@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Inventory Industrial",
+    "slug": "inventory-industrial-expo54",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050816"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.inventoryindustrial",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan product barcodes for stock operations."
+      }
+    },
+    "android": {
+      "package": "com.example.inventoryindustrial",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Inventory to use the camera for barcode scanning"
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "http://192.168.1.19:5000"
+    }
+  }
+}

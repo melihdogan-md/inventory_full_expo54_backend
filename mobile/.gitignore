@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native caches
+.expo/
+.expo-shared/
+web-build/
+.metadata/
+.bundle/
+
+# Build output
+android/
+ios/
+build/
+/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Testing
+coverage/
+.jest/
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
