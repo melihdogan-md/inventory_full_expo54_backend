@@ -399,3 +399,52 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# React Native / Expo (mobile app)
+mobile/node_modules/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/.expo/web-cache/
+mobile/.expo/web-build/
+mobile/web-build/
+mobile/dist/
+mobile/.bundle/
+mobile/.cache/
+mobile/.parcel-cache/
+mobile/.metro-cache/
+mobile/npm-debug.log*
+mobile/yarn-debug.log*
+mobile/yarn-error.log*
+
+# React Native Android artifacts
+mobile/android/.gradle/
+mobile/android/.idea/
+mobile/android/.settings/
+mobile/android/.cxx/
+mobile/android/.externalNativeBuild/
+mobile/android/captures/
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/local.properties
+mobile/android/**/*.keystore
+
+# React Native iOS artifacts
+mobile/ios/build/
+mobile/ios/DerivedData/
+mobile/ios/Pods/
+mobile/ios/*.mode1v3
+mobile/ios/*.mode2v3
+mobile/ios/*.perspectivev3
+mobile/ios/*/*.perspectivev3
+mobile/ios/*.pbxuser
+mobile/ios/*/*.pbxuser
+mobile/ios/*.xcworkspace
+mobile/ios/*/*.xcworkspace
+mobile/ios/*/*.xcuserdata/
+mobile/ios/.DS_Store
+
+# Fastlane / Expo helpers
+mobile/fastlane/report.xml
+mobile/fastlane/Preview.html
+mobile/fastlane/screenshots/
+mobile/fastlane/test_output/
